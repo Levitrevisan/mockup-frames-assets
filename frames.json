@@ -1,0 +1,989 @@
+{
+  "version": 1,
+  "frames": [
+    {
+      "id": "phone-notch",
+      "name": "Phone · Notch",
+      "category": "phone",
+      "pro": false,
+      "pngWidth": 640,
+      "pngHeight": 1300,
+      "screen": {
+        "x": 28,
+        "y": 28,
+        "w": 584,
+        "h": 1244
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-notch--midnight@2x.png",
+        "snow": "frames/phone-notch--snow@2x.png",
+        "silver": "frames/phone-notch--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-notch--midnight-thumb.png",
+        "snow": "frames/phone-notch--snow-thumb.png",
+        "silver": "frames/phone-notch--silver-thumb.png"
+      }
+    },
+    {
+      "id": "phone-punch",
+      "name": "Phone · Punch hole",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 640,
+      "pngHeight": 1300,
+      "screen": {
+        "x": 28,
+        "y": 28,
+        "w": 584,
+        "h": 1244
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-punch--midnight@2x.png",
+        "snow": "frames/phone-punch--snow@2x.png",
+        "navy": "frames/phone-punch--navy@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-punch--midnight-thumb.png",
+        "snow": "frames/phone-punch--snow-thumb.png",
+        "navy": "frames/phone-punch--navy-thumb.png"
+      }
+    },
+    {
+      "id": "phone-compact",
+      "name": "Phone · Compact",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 600,
+      "pngHeight": 1240,
+      "screen": {
+        "x": 26,
+        "y": 26,
+        "w": 548,
+        "h": 1188
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-compact--midnight@2x.png",
+        "sand": "frames/phone-compact--sand@2x.png",
+        "silver": "frames/phone-compact--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-compact--midnight-thumb.png",
+        "sand": "frames/phone-compact--sand-thumb.png",
+        "silver": "frames/phone-compact--silver-thumb.png"
+      }
+    },
+    {
+      "id": "phone-max",
+      "name": "Phone · Max",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 680,
+      "pngHeight": 1380,
+      "screen": {
+        "x": 30,
+        "y": 30,
+        "w": 620,
+        "h": 1320
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-max--midnight@2x.png",
+        "snow": "frames/phone-max--snow@2x.png",
+        "silver": "frames/phone-max--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-max--midnight-thumb.png",
+        "snow": "frames/phone-max--snow-thumb.png",
+        "silver": "frames/phone-max--silver-thumb.png"
+      }
+    },
+    {
+      "id": "phone-rounded",
+      "name": "Phone · Rounded",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 640,
+      "pngHeight": 1300,
+      "screen": {
+        "x": 28,
+        "y": 28,
+        "w": 584,
+        "h": 1244
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "snow": "frames/phone-rounded--snow@2x.png",
+        "midnight": "frames/phone-rounded--midnight@2x.png",
+        "sand": "frames/phone-rounded--sand@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/phone-rounded--snow-thumb.png",
+        "midnight": "frames/phone-rounded--midnight-thumb.png",
+        "sand": "frames/phone-rounded--sand-thumb.png"
+      }
+    },
+    {
+      "id": "phone-flat",
+      "name": "Phone · Flat edge",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 640,
+      "pngHeight": 1300,
+      "screen": {
+        "x": 28,
+        "y": 28,
+        "w": 584,
+        "h": 1244
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-flat--midnight@2x.png",
+        "navy": "frames/phone-flat--navy@2x.png",
+        "silver": "frames/phone-flat--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-flat--midnight-thumb.png",
+        "navy": "frames/phone-flat--navy-thumb.png",
+        "silver": "frames/phone-flat--silver-thumb.png"
+      }
+    },
+    {
+      "id": "phone-mini",
+      "name": "Phone · Mini",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 560,
+      "pngHeight": 1160,
+      "screen": {
+        "x": 24,
+        "y": 24,
+        "w": 512,
+        "h": 1112
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-mini--midnight@2x.png",
+        "snow": "frames/phone-mini--snow@2x.png",
+        "sand": "frames/phone-mini--sand@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-mini--midnight-thumb.png",
+        "snow": "frames/phone-mini--snow-thumb.png",
+        "sand": "frames/phone-mini--sand-thumb.png"
+      }
+    },
+    {
+      "id": "phone-edge",
+      "name": "Phone · Edge",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 640,
+      "pngHeight": 1300,
+      "screen": {
+        "x": 20,
+        "y": 20,
+        "w": 600,
+        "h": 1260
+      },
+      "colors": [
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        }
+      ],
+      "png": {
+        "navy": "frames/phone-edge--navy@2x.png",
+        "midnight": "frames/phone-edge--midnight@2x.png",
+        "snow": "frames/phone-edge--snow@2x.png"
+      },
+      "thumb": {
+        "navy": "frames/phone-edge--navy-thumb.png",
+        "midnight": "frames/phone-edge--midnight-thumb.png",
+        "snow": "frames/phone-edge--snow-thumb.png"
+      }
+    },
+    {
+      "id": "tablet-portrait",
+      "name": "Tablet · Portrait",
+      "category": "tablet",
+      "pro": false,
+      "pngWidth": 960,
+      "pngHeight": 1280,
+      "screen": {
+        "x": 36,
+        "y": 36,
+        "w": 888,
+        "h": 1208
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/tablet-portrait--midnight@2x.png",
+        "snow": "frames/tablet-portrait--snow@2x.png",
+        "silver": "frames/tablet-portrait--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/tablet-portrait--midnight-thumb.png",
+        "snow": "frames/tablet-portrait--snow-thumb.png",
+        "silver": "frames/tablet-portrait--silver-thumb.png"
+      }
+    },
+    {
+      "id": "tablet-slim",
+      "name": "Tablet · Slim",
+      "category": "tablet",
+      "pro": true,
+      "pngWidth": 960,
+      "pngHeight": 1280,
+      "screen": {
+        "x": 24,
+        "y": 24,
+        "w": 912,
+        "h": 1232
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "snow": "frames/tablet-slim--snow@2x.png",
+        "midnight": "frames/tablet-slim--midnight@2x.png",
+        "sand": "frames/tablet-slim--sand@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/tablet-slim--snow-thumb.png",
+        "midnight": "frames/tablet-slim--midnight-thumb.png",
+        "sand": "frames/tablet-slim--sand-thumb.png"
+      }
+    },
+    {
+      "id": "tablet-classic",
+      "name": "Tablet · Classic",
+      "category": "tablet",
+      "pro": true,
+      "pngWidth": 960,
+      "pngHeight": 1280,
+      "screen": {
+        "x": 52,
+        "y": 52,
+        "w": 856,
+        "h": 1176
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        }
+      ],
+      "png": {
+        "midnight": "frames/tablet-classic--midnight@2x.png",
+        "silver": "frames/tablet-classic--silver@2x.png",
+        "navy": "frames/tablet-classic--navy@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/tablet-classic--midnight-thumb.png",
+        "silver": "frames/tablet-classic--silver-thumb.png",
+        "navy": "frames/tablet-classic--navy-thumb.png"
+      }
+    },
+    {
+      "id": "tablet-mini",
+      "name": "Tablet · Mini",
+      "category": "tablet",
+      "pro": true,
+      "pngWidth": 840,
+      "pngHeight": 1120,
+      "screen": {
+        "x": 32,
+        "y": 32,
+        "w": 776,
+        "h": 1056
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "midnight": "frames/tablet-mini--midnight@2x.png",
+        "snow": "frames/tablet-mini--snow@2x.png",
+        "sand": "frames/tablet-mini--sand@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/tablet-mini--midnight-thumb.png",
+        "snow": "frames/tablet-mini--snow-thumb.png",
+        "sand": "frames/tablet-mini--sand-thumb.png"
+      }
+    },
+    {
+      "id": "laptop-air",
+      "name": "Laptop · Air",
+      "category": "laptop",
+      "pro": false,
+      "pngWidth": 1600,
+      "pngHeight": 1000,
+      "screen": {
+        "x": 228,
+        "y": 28,
+        "w": 1144,
+        "h": 804
+      },
+      "colors": [
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        }
+      ],
+      "png": {
+        "silver": "frames/laptop-air--silver@2x.png",
+        "midnight": "frames/laptop-air--midnight@2x.png",
+        "snow": "frames/laptop-air--snow@2x.png"
+      },
+      "thumb": {
+        "silver": "frames/laptop-air--silver-thumb.png",
+        "midnight": "frames/laptop-air--midnight-thumb.png",
+        "snow": "frames/laptop-air--snow-thumb.png"
+      }
+    },
+    {
+      "id": "laptop-studio",
+      "name": "Laptop · Studio",
+      "category": "laptop",
+      "pro": true,
+      "pngWidth": 1600,
+      "pngHeight": 1000,
+      "screen": {
+        "x": 228,
+        "y": 28,
+        "w": 1144,
+        "h": 804
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        }
+      ],
+      "png": {
+        "midnight": "frames/laptop-studio--midnight@2x.png",
+        "silver": "frames/laptop-studio--silver@2x.png",
+        "navy": "frames/laptop-studio--navy@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/laptop-studio--midnight-thumb.png",
+        "silver": "frames/laptop-studio--silver-thumb.png",
+        "navy": "frames/laptop-studio--navy-thumb.png"
+      }
+    },
+    {
+      "id": "laptop-slim",
+      "name": "Laptop · Slim",
+      "category": "laptop",
+      "pro": true,
+      "pngWidth": 1600,
+      "pngHeight": 1000,
+      "screen": {
+        "x": 220,
+        "y": 20,
+        "w": 1160,
+        "h": 820
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "snow": "frames/laptop-slim--snow@2x.png",
+        "silver": "frames/laptop-slim--silver@2x.png",
+        "sand": "frames/laptop-slim--sand@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/laptop-slim--snow-thumb.png",
+        "silver": "frames/laptop-slim--silver-thumb.png",
+        "sand": "frames/laptop-slim--sand-thumb.png"
+      }
+    },
+    {
+      "id": "laptop-classic",
+      "name": "Laptop · Classic",
+      "category": "laptop",
+      "pro": true,
+      "pngWidth": 1600,
+      "pngHeight": 1000,
+      "screen": {
+        "x": 244,
+        "y": 44,
+        "w": 1112,
+        "h": 772
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/laptop-classic--midnight@2x.png",
+        "navy": "frames/laptop-classic--navy@2x.png",
+        "silver": "frames/laptop-classic--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/laptop-classic--midnight-thumb.png",
+        "navy": "frames/laptop-classic--navy-thumb.png",
+        "silver": "frames/laptop-classic--silver-thumb.png"
+      }
+    },
+    {
+      "id": "desktop-studio",
+      "name": "Desktop · Studio",
+      "category": "desktop",
+      "pro": false,
+      "pngWidth": 1440,
+      "pngHeight": 1120,
+      "screen": {
+        "x": 32,
+        "y": 32,
+        "w": 1376,
+        "h": 776
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/desktop-studio--midnight@2x.png",
+        "snow": "frames/desktop-studio--snow@2x.png",
+        "silver": "frames/desktop-studio--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/desktop-studio--midnight-thumb.png",
+        "snow": "frames/desktop-studio--snow-thumb.png",
+        "silver": "frames/desktop-studio--silver-thumb.png"
+      }
+    },
+    {
+      "id": "desktop-wide",
+      "name": "Desktop · Wide",
+      "category": "desktop",
+      "pro": true,
+      "pngWidth": 1520,
+      "pngHeight": 1080,
+      "screen": {
+        "x": 32,
+        "y": 32,
+        "w": 1456,
+        "h": 736
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/desktop-wide--midnight@2x.png",
+        "navy": "frames/desktop-wide--navy@2x.png",
+        "silver": "frames/desktop-wide--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/desktop-wide--midnight-thumb.png",
+        "navy": "frames/desktop-wide--navy-thumb.png",
+        "silver": "frames/desktop-wide--silver-thumb.png"
+      }
+    },
+    {
+      "id": "desktop-classic",
+      "name": "Desktop · Classic",
+      "category": "desktop",
+      "pro": true,
+      "pngWidth": 1440,
+      "pngHeight": 1120,
+      "screen": {
+        "x": 32,
+        "y": 32,
+        "w": 1376,
+        "h": 776
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        }
+      ],
+      "png": {
+        "snow": "frames/desktop-classic--snow@2x.png",
+        "silver": "frames/desktop-classic--silver@2x.png",
+        "midnight": "frames/desktop-classic--midnight@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/desktop-classic--snow-thumb.png",
+        "silver": "frames/desktop-classic--silver-thumb.png",
+        "midnight": "frames/desktop-classic--midnight-thumb.png"
+      }
+    },
+    {
+      "id": "browser-light",
+      "name": "Browser · Light",
+      "category": "browser",
+      "pro": false,
+      "pngWidth": 1440,
+      "pngHeight": 920,
+      "screen": {
+        "x": 16,
+        "y": 88,
+        "w": 1408,
+        "h": 816
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "snow": "frames/browser-light--snow@2x.png",
+        "midnight": "frames/browser-light--midnight@2x.png",
+        "sand": "frames/browser-light--sand@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/browser-light--snow-thumb.png",
+        "midnight": "frames/browser-light--midnight-thumb.png",
+        "sand": "frames/browser-light--sand-thumb.png"
+      }
+    },
+    {
+      "id": "browser-dark",
+      "name": "Browser · Dark",
+      "category": "browser",
+      "pro": true,
+      "pngWidth": 1440,
+      "pngHeight": 920,
+      "screen": {
+        "x": 16,
+        "y": 88,
+        "w": 1408,
+        "h": 816
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        }
+      ],
+      "png": {
+        "midnight": "frames/browser-dark--midnight@2x.png",
+        "navy": "frames/browser-dark--navy@2x.png",
+        "snow": "frames/browser-dark--snow@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/browser-dark--midnight-thumb.png",
+        "navy": "frames/browser-dark--navy-thumb.png",
+        "snow": "frames/browser-dark--snow-thumb.png"
+      }
+    },
+    {
+      "id": "browser-minimal",
+      "name": "Browser · Minimal",
+      "category": "browser",
+      "pro": true,
+      "pngWidth": 1440,
+      "pngHeight": 920,
+      "screen": {
+        "x": 16,
+        "y": 72,
+        "w": 1408,
+        "h": 832
+      },
+      "colors": [
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        }
+      ],
+      "png": {
+        "snow": "frames/browser-minimal--snow@2x.png",
+        "silver": "frames/browser-minimal--silver@2x.png",
+        "midnight": "frames/browser-minimal--midnight@2x.png"
+      },
+      "thumb": {
+        "snow": "frames/browser-minimal--snow-thumb.png",
+        "silver": "frames/browser-minimal--silver-thumb.png",
+        "midnight": "frames/browser-minimal--midnight-thumb.png"
+      }
+    },
+    {
+      "id": "watch-round",
+      "name": "Watch · Rounded",
+      "category": "watch",
+      "pro": false,
+      "pngWidth": 520,
+      "pngHeight": 760,
+      "screen": {
+        "x": 72,
+        "y": 132,
+        "w": 376,
+        "h": 456
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "sand",
+          "name": "Sand",
+          "hex": "#CBB99A"
+        }
+      ],
+      "png": {
+        "midnight": "frames/watch-round--midnight@2x.png",
+        "snow": "frames/watch-round--snow@2x.png",
+        "sand": "frames/watch-round--sand@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/watch-round--midnight-thumb.png",
+        "snow": "frames/watch-round--snow-thumb.png",
+        "sand": "frames/watch-round--sand-thumb.png"
+      }
+    },
+    {
+      "id": "watch-sport",
+      "name": "Watch · Sport",
+      "category": "watch",
+      "pro": true,
+      "pngWidth": 520,
+      "pngHeight": 760,
+      "screen": {
+        "x": 72,
+        "y": 132,
+        "w": 376,
+        "h": 456
+      },
+      "colors": [
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        },
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "navy": "frames/watch-sport--navy@2x.png",
+        "midnight": "frames/watch-sport--midnight@2x.png",
+        "silver": "frames/watch-sport--silver@2x.png"
+      },
+      "thumb": {
+        "navy": "frames/watch-sport--navy-thumb.png",
+        "midnight": "frames/watch-sport--midnight-thumb.png",
+        "silver": "frames/watch-sport--silver-thumb.png"
+      }
+    }
+  ]
+}
