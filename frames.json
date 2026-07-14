@@ -7,12 +7,12 @@
       "category": "phone",
       "pro": false,
       "pngWidth": 640,
-      "pngHeight": 1300,
+      "pngHeight": 1322,
       "screen": {
         "x": 28,
         "y": 28,
         "w": 584,
-        "h": 1244
+        "h": 1266
       },
       "colors": [
         {
@@ -253,12 +253,12 @@
       "category": "phone",
       "pro": true,
       "pngWidth": 560,
-      "pngHeight": 1160,
+      "pngHeight": 1158,
       "screen": {
         "x": 24,
         "y": 24,
         "w": 512,
-        "h": 1112
+        "h": 1110
       },
       "colors": [
         {
