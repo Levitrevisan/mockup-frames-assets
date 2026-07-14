@@ -2,6 +2,88 @@
   "version": 1,
   "frames": [
     {
+      "id": "phone-island",
+      "name": "Phone · Dynamic Island",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 640,
+      "pngHeight": 1322,
+      "screen": {
+        "x": 28,
+        "y": 28,
+        "w": 584,
+        "h": 1266
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "navy",
+          "name": "Navy",
+          "hex": "#2E3A55"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-island--midnight@2x.png",
+        "snow": "frames/phone-island--snow@2x.png",
+        "navy": "frames/phone-island--navy@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-island--midnight-thumb.png",
+        "snow": "frames/phone-island--snow-thumb.png",
+        "navy": "frames/phone-island--navy-thumb.png"
+      }
+    },
+    {
+      "id": "phone-island-max",
+      "name": "Phone · Dynamic Island Max",
+      "category": "phone",
+      "pro": true,
+      "pngWidth": 688,
+      "pngHeight": 1422,
+      "screen": {
+        "x": 30,
+        "y": 30,
+        "w": 628,
+        "h": 1362
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        }
+      ],
+      "png": {
+        "midnight": "frames/phone-island-max--midnight@2x.png",
+        "silver": "frames/phone-island-max--silver@2x.png",
+        "snow": "frames/phone-island-max--snow@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/phone-island-max--midnight-thumb.png",
+        "silver": "frames/phone-island-max--silver-thumb.png",
+        "snow": "frames/phone-island-max--snow-thumb.png"
+      }
+    },
+    {
       "id": "phone-notch",
       "name": "Phone · Notch",
       "category": "phone",
