@@ -1066,6 +1066,47 @@
         "midnight": "frames/watch-sport--midnight-thumb.png",
         "silver": "frames/watch-sport--silver-thumb.png"
       }
+    },
+    {
+      "id": "watch-circle",
+      "name": "Watch · Circular",
+      "category": "watch",
+      "pro": true,
+      "pngWidth": 520,
+      "pngHeight": 760,
+      "screen": {
+        "x": 68,
+        "y": 188,
+        "w": 384,
+        "h": 384
+      },
+      "colors": [
+        {
+          "id": "midnight",
+          "name": "Midnight",
+          "hex": "#2B2D33"
+        },
+        {
+          "id": "snow",
+          "name": "Snow",
+          "hex": "#DFE1E7"
+        },
+        {
+          "id": "silver",
+          "name": "Silver",
+          "hex": "#AAB0BA"
+        }
+      ],
+      "png": {
+        "midnight": "frames/watch-circle--midnight@2x.png",
+        "snow": "frames/watch-circle--snow@2x.png",
+        "silver": "frames/watch-circle--silver@2x.png"
+      },
+      "thumb": {
+        "midnight": "frames/watch-circle--midnight-thumb.png",
+        "snow": "frames/watch-circle--snow-thumb.png",
+        "silver": "frames/watch-circle--silver-thumb.png"
+      }
     }
   ]
 }
