@@ -28,3 +28,9 @@ footer.site { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size
 footer.site a { color: var(--accent-ink); margin-right: 16px; }
 .legal h2 { font-size: 1.1rem; }
 .legal p, .legal li { font-size: .95rem; }
+table.scopes { width: 100%; border-collapse: collapse; margin: 12px 0 8px; background: #fff; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+table.scopes th, table.scopes td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: .9rem; }
+table.scopes th { color: var(--ink); font-weight: 700; background: #fbfaf6; }
+table.scopes tr:last-child td { border-bottom: 0; }
+table.scopes code { font-size: .82rem; word-break: break-word; }
+table.scopes em { color: var(--accent-ink); font-style: normal; font-size: .78rem; }

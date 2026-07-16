@@ -9,24 +9,99 @@
   <header class="site"><div class="wrap"><a class="logo" href="index.html">Mockup <span>Frames</span></a></div></header>
   <main><div class="wrap legal">
     <h1>Privacy Policy</h1>
-    <p>Last updated: 2026-07-14</p>
-    <h2>What we collect</h2>
+    <p>Last updated: 2026-07-16</p>
+
+    <p>Mockup Frames is a Google Slides add-on that wraps images on your slides in
+      device frames (phones, tablets, laptops, watches, and browsers). This policy
+      explains what data the add-on accesses, how we protect it, and what we never do.</p>
+
+    <h2>Data we access</h2>
+    <p>The add-on requests the minimum OAuth scopes needed to do its job. The table
+      below lists every scope, the data it touches, and how that data is protected.</p>
+    <table class="scopes">
+      <thead>
+        <tr><th>OAuth scope</th><th>What it accesses</th><th>How it is protected</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>presentations.currentonly</code> <em>(sensitive)</em></td>
+          <td>Only the single presentation you currently have open — the image you
+            select and the frame + image we write back into that slide.</td>
+          <td>Access is limited to the open document; the add-on cannot see your
+            other files or Google Drive. Content is processed transiently to complete
+            the action and is never stored by us.</td>
+        </tr>
+        <tr>
+          <td><code>script.container.ui</code></td>
+          <td>Displays the add-on's sidebar inside Google Slides.</td>
+          <td>Accesses no presentation content or personal data.</td>
+        </tr>
+        <tr>
+          <td><code>script.external_request</code></td>
+          <td>Fetches the static device-frame images from our own domain
+            (<code>mockupframes.levitrevisan.com</code>).</td>
+          <td>These requests are outbound only, sent over HTTPS, and contain no
+            presentation content, image data, or personal information.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>How we protect your data</h2>
     <ul>
-      <li><strong>Images you choose</strong> — screenshots you upload or select on a slide are processed transiently in your browser to insert them into your presentation. They are never sent to or stored by us.</li>
-      <li><strong>Google account email</strong> — the add-on requests the <code>userinfo.email</code> OAuth scope. Mockup Frames is currently free, and we do not store your email, build a profile, or track your usage. If optional paid features are added later, your email would be used only to identify your plan, and this policy would be updated first.</li>
+      <li><strong>Encryption in transit</strong> — All communication between the
+        add-on, Google's servers, and our asset domain uses HTTPS/TLS. Data is never
+        transmitted over unencrypted connections.</li>
+      <li><strong>Transient, in-memory processing</strong> — The image you select is
+        read and re-inserted only for the duration of the action you trigger. It is
+        held in memory only as long as needed to complete that operation and is then
+        discarded. Nothing is written to a database or any persistent store.</li>
+      <li><strong>No transmission to us or to third parties</strong> — Your
+        presentation content and images stay within Google's infrastructure and your
+        browser session. They are never sent to our servers or to any third party.
+        Our only outbound requests retrieve static frame images from our own domain
+        and include none of your data.</li>
+      <li><strong>Scoped, least-privilege access</strong> — We request only the
+        scopes above. The <code>presentations.currentonly</code> scope restricts the
+        add-on to the presentation you have open; it cannot access your other
+        documents or Drive.</li>
+      <li><strong>No accounts or profiles</strong> — We do not create user accounts,
+        store identifiers, or build usage profiles. The add-on does not request your
+        email address.</li>
     </ul>
+
     <h2>What we never do</h2>
     <ul>
-      <li>We never read your presentations beyond the action you request (scope <code>presentations.currentonly</code> limits access to the open document).</li>
-      <li>We never sell or share your data with third parties for marketing.</li>
+      <li>We never read your presentations beyond the action you request.</li>
       <li>We never store your images or presentation content on our servers.</li>
+      <li>We never sell or share your data with third parties for marketing.</li>
+      <li>We never use your Google user data to train, develop, or improve
+        generalized or non-personalized AI and/or machine-learning models.</li>
     </ul>
-    <h2>Pricing</h2>
-    <p>Mockup Frames is free to use. We do not collect any payment information and no payment processor is involved. If we introduce optional paid features in the future, this policy will be updated before any payment data is handled.</p>
+
     <h2>Data retention and deletion</h2>
-    <p>While the add-on is free we do not keep a database of users. If future account features store any data associated with your email, you can request its deletion by contacting us at the address below.</p>
+    <p>Because the add-on processes data transiently and keeps no database of users
+      or content, there is no stored personal data to retain or delete. If you stop
+      using the add-on, you can remove it at any time from
+      <em>Extensions → Add-ons → Manage add-ons</em> in Google Slides, which revokes
+      its access. Questions about data handling can be sent to us via the
+      <a href="support.html">Support</a> page.</p>
+
+    <h2>Pricing</h2>
+    <p>Mockup Frames is free to use. We do not collect any payment information and no
+      payment processor is involved. If we introduce optional paid features in the
+      future, this policy will be updated before any additional data (such as an
+      email address to identify a plan) is requested or handled.</p>
+
     <h2>Google API Services disclosure</h2>
-    <p>Mockup Frames' use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>Mockup Frames' use and transfer of information received from Google APIs
+      adheres to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+      API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we will update the "Last updated" date above and, for
+      material changes, note them on this page before they take effect.</p>
+
     <h2>Contact</h2>
     <p>Questions about this policy: <a href="support.html">Support</a>.</p>
   </div></main>
