@@ -34,3 +34,4 @@ table.scopes th { color: var(--ink); font-weight: 700; background: #fbfaf6; }
 table.scopes tr:last-child td { border-bottom: 0; }
 table.scopes code { font-size: .82rem; word-break: break-word; }
 table.scopes em { color: var(--accent-ink); font-style: normal; font-size: .78rem; }
+.tm-note { color: var(--muted); font-size: .8rem; line-height: 1.5; margin: 14px 0 0; max-width: 72ch; }
